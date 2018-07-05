@@ -1,0 +1,265 @@
+body{
+	font-family: arial;
+
+
+
+
+div.sectionone{
+	background-color: #fff;
+}
+
+
+div.subsectionone{
+	height: 85px;
+	text-align: center;
+	border-bottom: 1px solid #ececec;
+}
+
+
+
+img.zurit-logo{
+	width: 85px !important;
+	margin-top: 35px;
+	margin-left: 9%;
+}
+
+
+span.usersignin{
+	float: right;
+	margin-right: 8%;
+	margin-top: 35px;
+	font-size: 13px;
+	color: #ccc;
+}
+
+a#join,a#signin{
+	color: #ccc;
+}
+
+span#pipe{
+	font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+div.subsectiontwo{
+	height: 55px;
+	/*background-color: #efefef;*/
+	text-align: center;
+}
+ul.medium-horizontal{
+	display: inline-flex !important;
+}
+
+ul.medium-horizontal>li>a{
+	color: black;
+	font-size: 12px;
+	padding: 20px;
+}
+div.sectiontwo{
+	height: 500px;
+	/*background-image: url('../images/house.jpg');
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+.slide1{
+	height:500px;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+}
+
+
+div.sectionthree{
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 2%;
+    height: 600px;
+    background-color: #eff1ef;
+}
+
+div.sectionthree>h3{
+	font-weight: 400;
+    font-size: 25px;
+}
+div.subsectionthree{
+	background-image: url('../images/bitmap.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 400px;
+}
+div.subsectionfour{
+	padding-left: 25px;
+
+}
+
+div.topdiv{
+	height: 180px;
+	background-image: url('../images/rice.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+div.bottomdiv{
+	width: 100%;
+	height: 190px;
+	margin-top: 30px;
+
+}
+div.divone{
+	width: 60%;
+	float: left;
+	background-image: url('../images/tiles.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: inherit;
+}
+
+div.divtwo{
+	width: 36%;
+	margin-left: 4%;
+	float: right;
+	background-image: url('../images/door.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: inherit;
+}
+div.sectionfour{
+	padding-left: 9%;
+    padding-right: 6%;
+    padding-top: 2%;
+    height: 698px;
+    background-color: #fbfdfb;
+
+}
+div.switch{
+	width: 210px;
+	height: 200px;
+	margin-right: 10px;
+	background-size: contain;
+
+}
+div.sectionfourfooter{
+	align-content: center;
+	margin-top: 10%;
+	margin-bottom: 10%
+}
+button.hollow{
+	margin-left: 40%;
+	margin-top:2%;
+}
+.partfive{
+	padding-left: 9%;
+    padding-right: 6%;
+    padding-top: 2%;
+    height: 600px;
+    background-color: #f3f5f3;
+
+}
+div.with-card{
+	background-image: url('../images/card.png');
+	//background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:510px;
+
+
+}
+div.with2{
+	margin-left: 150px;
+  height: 400px;
+}
+div.newsletter{
+	height: 150px;
+	background-color: #db7a1a
+
+}
+.news{
+	color: white;
+	padding-top: 40px
+
+}
+div.footer{
+	height: 300px;
+	background-color: #2e3033
+
+}
+p.footer{
+	color: white;
+	text-align: justify;
+	margin-bottom: 0rem;
+}
+small.footer{
+	color: #a29595;
+	margin-right: 107px;
+	}
+.small-2{
+	margin-left: 88px;
+	margin-top: 55px
+}
+.slick-slide{
+  img{
+    width: 20%;
+  }
+}
+.slidecl{
+	height: 200px;
+}
+img.img_slidem{
+	height:250px;
+    width: 250px;
+    padding: 4px;
+}
+div.partners{
+	background-image: url('../images/partners.jpg');
+	background-size: cover;
+	height:200px;
+	background-position: center;
+}
+//.inputs{
+//
+//}
+.in_country{
+	height: 40px;
+	width: 250px;
+	background-color: #db7a1a;
+	border-color: white;
+	box-shadow: 0;
+}
+.in_email{
+	height: 40px;
+	background-color: #db7a1a;
+	width: 305px;
+}
+.in_btn{
+	height: 40px;
+	background-color: #db7a1a;
+	width: 50px;
+	margin-left: 0;
+}
+.sidebottom{
+  margin-top: 30px;
+  margin-left: - 120px;
+  height:20px;
+
+}
+  .sidetop{
+    margin-left: - 120px;
+
+  }
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
