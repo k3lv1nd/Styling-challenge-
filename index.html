@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="css/app.css">
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
 
 </head>
 <body>
@@ -22,9 +24,14 @@
               <a href="#" id="signin">Sign in</a>
               or
               <a href="#" id="join">Join</a>
-              <span id="pipe">|</span>
-              <small>@</small>
+              <span id="pipe">|
+                   <span class="postfix"><i class="fi-magnifying-glass"></i></span></input>
+
             </span>
+        </span>
+
+    </div>
+
     </div>
     <div class="row subsectiontwo">
         <ul class="menu vertical medium-horizontal" style="color: #0a0a0a">
@@ -57,7 +64,7 @@
 
             <div style="text-align:center;height:500px;color:#ffffff;">
                 <div style="margin-top:10%; font-size:100%; text-align: center;"><p
-                        style="margin-top: 170px; font-size: 40px">Affordable Quality<br> Lifestyle</P><br>
+                        style="margin-top: 170px; font-size: 40px;font-weight:bold;">Affordable quality<br> Lifestyle</P><br>
                     <small><u>see more</u></small>
                 </div>
             </div>
@@ -68,8 +75,8 @@
              style="height:500px;background-position:center;background-size:cover;background-repeat:no-repeat;background-image: url('./images/house.jpg');">
 
             <div style="text-align:center;height:500px;color:#ffffff;background-color: rgba(0,0,0,0.4);">
-                <div style="padding-top:10%; text-align: center;"><p style="margin-top: 80px; font-size: 40px">
-                    Affordable Quality<br> Lifestyle</P><br>
+                <div style="padding-top:10%; text-align: center;"><p style="margin-top: 80px; font-size: 40px; font-weight:bold;">
+                    Affordable quality<br> Lifestyle</P><br>
                     <small><u>see more</u></small>
                 </div>
             </div>
@@ -81,8 +88,8 @@
 
 
             <div style="text-align:center;height:500px;color:#ffffff;background-color: rgba(0,0,0,0.4);">
-                <div style="padding-top:10%; text-align: center;"><p style="margin-top: 50pxpx; font-size: 40px">
-                    Affordable Quality<br> Lifestyle</P><br>
+                <div style="padding-top:10%; text-align: center;"><p style="margin-top: 50px; font-size: 40px; font-weight:bold;">
+                    Affordable quality<br> Lifestyle</P><br>
                     <small><u>see more</u></small>
                 </div>
             </div>
@@ -102,7 +109,7 @@
 
 <div class="row sectionthree">
 
-    <h3>New Collection</h3>
+    <h3>NEW COLLECTION</h3>
     <div class="grid-x">
         <div class="large-4 subsectionthree">
             <div class="large-4"
@@ -155,7 +162,7 @@
 
 <!-- section four -->
 <div class="row sectionfour">
-    <h3>New Products</h3>
+    <h3>NEW PRODUCTS</h3>
     <div class="grid-x ">
         <div class="large-3 ">
             <div class="card switch" style="background-image: url('./images/Bitmap1.png');">
@@ -190,7 +197,7 @@
 
 
     </div>
-    <div class="grid-x">
+    <div class="grid-x" style="margin-top: 5%;">
         <div class="large-3 ">
             <div class="card switch" style="background-image: url('./images/Bitmap5.png');">
 
@@ -198,7 +205,7 @@
             <p style="margin-bottom: 0%">Schneider Electric Bell</p>
             <small style="margin-top:-5%">Electric fittings</small>
         </div>
-        <div class="large-3 ">
+        <div class="large-3 " >
             <div class="card switch" style="background-image: url('./images/Bitmap6.png');">
 
             </div>
@@ -236,6 +243,11 @@
 
 
         <div class="medium-8 with-card">
+            <div class="card inside">
+                <small class="small-inside">Servicies</small>
+                <p class="p-in">QUALITY INTERIOR<br> DESIGN</p>
+
+            </div>
 
         </div>
         <div class="medium-2 with2">
@@ -289,7 +301,7 @@
             <form style="margin-top: 20px;">
                 <input placeholder="Your email" class="in_email">
                 <input placeholder="Choose your country" class="in_country">
-                <input placeholder="send" class="in_btn">
+                <button type="button"  class="in_btn">send</button>
             </form>
 
         </div>
@@ -300,16 +312,16 @@
 <section class="row">
     <div class="grid-x footer">
         <div class="small-2" style="text-align: center;">
-            <small class="footer">contact</small>
+            <small class="footer0">Contact</small>
             <p class="footer">6th floor, the Chancery,<br>Valley Road,Nairobi,Kenya<br>
                 Tel +254(0)203929000</p>
-            <small class="footer">General Requests</small>
+            <small class="footer1">General Requests</small>
             <p class="footer">support@zurit.com</p>
-            <small class="footer">Online shop</small>
+            <small class="footer2">Online shop</small>
             <p class="footer">Zurit.com/products</p>
         </div>
         <div class="small-2" style="text-align: center;">
-            <small class="footer product">Products</small>
+            <small class="footer3 product">Products</small>
             <p class="footer">Tiles</p>
             <p class="footer">Sanitary</p>
             <p class="footer">Electrical Fittings</p>
@@ -334,7 +346,9 @@
             <small class="footer product">Downloads</small>
             <p class="footer">Catalogue</p>
             <p class="footer">Bronchure</p>
+
         </div>
+        <div><p class="foot"><i class="far fa-copyright"></i>  2018 Zurit by Cytonn LLP</p></div>
 
 
     </div>
@@ -350,16 +364,17 @@
 <script>
     $(document).ready(function () {
         $('.your-class').slick({
-            dots: true,
             autoplay: true,
+            arrows:true,
+            autoplaySpeed: 3000,
 
 
 
         });
     });
     $('.carousel').slick({
-        dots: true,
-        slidesToShow: 5,
+
+        slidesToShow: 4,
         slidesPerRow: 3,
         rows: 1,
         autoplay: true,

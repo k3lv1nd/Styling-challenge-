@@ -132,7 +132,7 @@ div.sectionfour{
 	padding-left: 9%;
     padding-right: 6%;
     padding-top: 2%;
-    height: 698px;
+    height: 750px;
     background-color: #fbfdfb;
 
 }
@@ -151,6 +151,8 @@ div.sectionfourfooter{
 button.hollow{
 	margin-left: 40%;
 	margin-top:2%;
+	width: 200px;
+	height: 40px;
 }
 .partfive{
 	padding-left: 9%;
@@ -166,9 +168,17 @@ div.with-card{
 	background-repeat: no-repeat;
 	background-position: center;
 	height:510px;
+	align-content: center;
 
 
 }
+	.inside{
+		background-color:white;
+		height: 200px;
+		margin-top: 35%;
+		margin-left: 30px;
+		margin-right:60%;
+	}
 div.with2{
 	margin-left: 150px;
   height: 400px;
@@ -184,7 +194,7 @@ div.newsletter{
 
 }
 div.footer{
-	height: 300px;
+	height: 350px;
 	background-color: #2e3033
 
 }
@@ -195,7 +205,23 @@ p.footer{
 }
 small.footer{
 	color: #a29595;
-	margin-right: 107px;
+	margin-right: 143px;
+	}
+	small.footer0{
+		color: #a29595;
+		margin-right: 180px;
+	}
+	small.footer1{
+		color: #a29595;
+		margin-right: 111px;
+	}
+	small.footer2{
+		color: #a29595;
+		margin-right: 143px;
+	}
+	small.footer3{
+		color: #a29595;
+		margin-right: 161px;
 	}
 .small-2{
 	margin-left: 88px;
@@ -224,27 +250,40 @@ div.partners{
 //
 //}
 .in_country{
-	height: 40px;
+	height: 55px;
 	width: 250px;
 	background-color: #db7a1a;
 	border-color: white;
 	box-shadow: 0;
+	border:1px white solid;
+	border-top: 0px;
+	text-indent: 25px;
+
 }
 .in_email{
-	height: 40px;
+	height: 55px;
 	background-color: #db7a1a;
 	width: 305px;
+	border-bottom: 0px;
+	border:1px solid white;
+	text-indent: 20px;
+	color: white;
+
 }
 .in_btn{
-	height: 40px;
-	background-color: #db7a1a;
-	width: 50px;
-	margin-left: 0;
+	height: 55px;
+	width: 55px;
+	margin-left: -5px;
+	border: 1px white solid;
+	border-top: 0px;
+	border-left: 0px;
+	color: white;
 }
 .sidebottom{
   margin-top: 30px;
   margin-left: - 120px;
   height:20px;
+	text-align: center;
 
 }
   .sidetop{
@@ -262,4 +301,35 @@ div.partners{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.slick-arrow.slick-prev {
+	left: 100px;
+	background: black; /*to notice it, is white*/
+	z-index: 1;
 
+
+}
+.slick-arrow.slick-next {
+	right: 90px;
+	background: black; /*to notice it, is white*/
+}
+.small-inside{
+	margin-left: 10%;
+	color: grey;
+	margin-top: 6%;
+
+}
+.p-in{
+	font-weight: bold;
+	padding-left: 10%;
+	padding-top: 20%;
+}
+input.in_email::-webkit-input-placeholder{
+	color: #fff;
+}
+input.in_country::-webkit-input-placeholder{
+	color: #fff;
+}
+.foot {
+	margin-left: 500px;
+	color: grey;
+}
